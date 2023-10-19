@@ -1,0 +1,16 @@
+{
+  "iisSettings": {
+    "windowsAuthentication": false,
+    "anonymousAuthentication": true
+  },
+  "profiles": {
+    "CarLinePickup.API": {
+      "commandName": "Project",
+      "applicationUrl": "http://localhost:51963",
+      "environmentVariables": {
+        "ASPNETCORE_ENVIRONMENT": "Development",
+        "ConnectionStrings:CarLinePickupDev": "Server=tcp:sql-dev-car-line-pickup.database.windows.net,1433;Initial Catalog=db-car-line-pickup-dev;Persist Security Info=False;User ID=clp;Password=t0them00n!;MultipleActiveResultSets=False;Encrypt=True;TrustServerCertificate=False;Connection Timeout=30;"
+      }
+    }
+  }
+}
